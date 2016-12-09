@@ -14,6 +14,7 @@
 		46CDDCE91DFB2DAC00567A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CDDCE71DFB2DAC00567A2C /* LaunchScreen.storyboard */; };
 		46CDDCF41DFB2DAC00567A2C /* What_s_the_watherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDDCF31DFB2DAC00567A2C /* What_s_the_watherTests.swift */; };
 		46CDDCFF1DFB2DAC00567A2C /* What_s_the_watherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDDCFE1DFB2DAC00567A2C /* What_s_the_watherUITests.swift */; };
+		46EEB19F1DFB349300CFCE8C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46EEB19E1DFB349300CFCE8C /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		46CDDCFA1DFB2DAC00567A2C /* What's the watherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's the watherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CDDCFE1DFB2DAC00567A2C /* What_s_the_watherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_s_the_watherUITests.swift; sourceTree = "<group>"; };
 		46CDDD001DFB2DAC00567A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EEB19E1DFB349300CFCE8C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				46CDDCDE1DFB2DAC00567A2C /* AppDelegate.swift */,
 				46CDDCE01DFB2DAC00567A2C /* ViewController.swift */,
 				46CDDCE21DFB2DAC00567A2C /* Main.storyboard */,
+				46EEB19E1DFB349300CFCE8C /* background.jpg */,
 				46CDDCE51DFB2DAC00567A2C /* Assets.xcassets */,
 				46CDDCE71DFB2DAC00567A2C /* LaunchScreen.storyboard */,
 				46CDDCEA1DFB2DAC00567A2C /* Info.plist */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46CDDCE91DFB2DAC00567A2C /* LaunchScreen.storyboard in Resources */,
+				46EEB19F1DFB349300CFCE8C /* background.jpg in Resources */,
 				46CDDCE61DFB2DAC00567A2C /* Assets.xcassets in Resources */,
 				46CDDCE41DFB2DAC00567A2C /* Main.storyboard in Resources */,
 			);
@@ -503,6 +507,7 @@
 				46CDDD051DFB2DAC00567A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46CDDD061DFB2DAC00567A2C /* Build configuration list for PBXNativeTarget "What's the watherTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				46CDDD081DFB2DAC00567A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46CDDD091DFB2DAC00567A2C /* Build configuration list for PBXNativeTarget "What's the watherUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				46CDDD0B1DFB2DAC00567A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
